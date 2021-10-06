@@ -1,23 +1,29 @@
 p {
-  margin: 10%;
+  margin: 5px 10%;
   font-size: 20px;
-  color: #171D1C;
+  color: #000000;
 }
 
 h1 {
+  margin-top: 5%;
+  font-size: 30px;
   text-align:center;
-  color: #16BAC5;
+  color: #66666E;
 }
 
 a:link {
-  color: #5FBFF9;
+  color: #000000;
 }
 
 /* mouse over link */
 a:hover {
-  color: #16BAC5;
+  color: #E36A6F;
+}
+
+a:visited {
+  color: #F7B2BD;
 }
 
 body {
-  background-color: #EFE9F4;
+  background-color: #E6E6E9;
 }
