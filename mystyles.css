@@ -37,6 +37,9 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
+  width: 10%;
+  @media(min-width: 1000px){
+    width:40%;
+  }
 }
   
