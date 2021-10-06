@@ -1,4 +1,23 @@
 p {
   margin: 10%;
   font-size: 20px;
+  color: #171D1C;
+}
+
+h1 {
+  text-align:center;
+  color: #16BAC5;
+}
+
+a:link {
+  color: #5FBFF9;
+}
+
+/* mouse over link */
+a:hover {
+  color: #16BAC5;
+}
+
+body {
+  color: #EFE9F4;
 }
