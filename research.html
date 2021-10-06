@@ -1,0 +1,53 @@
+<p>My current research interests:</p>
+<ul>
+<li><p style="font-size:15px"><b>Sampling vs. optimization and interacting particles: </b> In sampling the goal is to sample from some invariant measure.
+  In optimization the goal is to find the minimizer of some objective function. In certain cases these two are very similar. Interacting particles can speed up convergence to either.
+  Some interesting papers:
+  <a href="http://proceedings.mlr.press/v75/cheng18a/cheng18a.pdf" style="text-decoration:underline;"> [1] </a>
+  <a href="https://arxiv.org/pdf/2105.12049.pdf" style="text-decoration:underline;"> [2] </a>
+  <a href="https://arxiv.org/pdf/1811.08413.pdf" style="text-decoration:underline;"> [3] </a>
+  <a href="https://arxiv.org/pdf/2007.07704.pdf" style="text-decoration:underline;"> [4] </a>
+</p></li>
+
+<li><p style="font-size:15px"><b>Mirror descent and preconditioning: </b> Mirror descent can be used for contrained or unconstrained optimization.
+  The benefit being that the additional flexibility of the mirror map allows to better correspond to the constraint set and problem geometry.
+  Mirror descent can in turn be related to preconditioning the dynamics or to Riemannian gradient descent.
+  In what settings do which mirror maps help speed up convergence?
+  Some interesting papers:
+  <a href="https://ieeexplore.ieee.org/abstract/document/7004065?casa_token=joHnF32cqqYAAAAA:ckCLPKuqUSZW-WY9iT6NqjtD9HX-6xLh8H58XCFpJrN98pIjprL4xYemeXZg0uT63u8EGgrh" style="text-decoration:underline;"> [1] </a>
+  <a href="http://proceedings.mlr.press/v119/hendrikx20a/hendrikx20a.pdf" style="text-decoration:underline;"> [2] </a>
+  <a href="http://www.numdam.org/article/SMAI-JCM_2018__4__57_0.pdf" style="text-decoration:underline;"> [3] </a>
+</p></li>
+
+
+<li><p style="font-size:15px"><b>Distributed optimization:</b> In a setting where data is distributed across devices or servers we are interested
+  in how to define the communication structure between the nodes/particles to balance communication costs and convergence speed.
+  Some interesting papers:
+  <a href="https://epubs.siam.org/doi/pdf/10.1137/120901866?casa_token=IKKfgWvOY_gAAAAA:srIV1RIjUr4XH6MZlqFgBsfzxU2sCAhGDB8UPmhLjmBlnjy_zlMf-ZXA_AMipyZmD3cZdJt8GA" style="text-decoration:underline;"> [1] </a>
+  <a href="https://www.ma.imperial.ac.uk/~pavl/Optimizing_dynamics_using_spectral_gaps___ICML21_Workshop_on_beyond_first_order.pdf" style="text-decoration:underline;"> [2] </a>
+</p></li>
+
+<li><p style="font-size:15px"><b>Security and privacy:</b> Design methods that can guarantee security and privacy in learning algorithms.
+  Federated learning has been proposed as a manner of keeping data stored locally on the
+  device but still collectively training a model - however recent work has shown that sensitive information can even be extracted from the gradients.
+  How can we balance data usefulness and user privacy?
+  Some interesting papers:
+  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8835269&casa_token=MmEHM6bEqo0AAAAA:qN0712JfSBVwo_VEaFihevEbnLD2PvQlB4LFlKjZbgmzHrgMRnbUQz02wsaOgIwJ75CgNQ-M" style="text-decoration:underline;"> [1] </a>
+  <a href="https://dl.acm.org/doi/pdf/10.1145/3386901.3388946?casa_token=FqJfdUc-kn8AAAAA:jMarXbIU9SKBsFNEV3QyWRG8cDgU3g9Aw_CjcvyKd0VSgUTqljuMwLsDxSlU-V2EQiAb8ISRG4V5" style="text-decoration:underline;"> [2] </a>
+</p></li>
+
+<li><p style="font-size:15px"><b>Finance and trading: </b> Anything related to limit order books, option pricing, trading strategies.
+  Some interesting papers:
+  <a href="http://wp.lancs.ac.uk/finec2018/files/2018/09/FINEC-2018-028-Xiaofei.Lu_.pdf" style="text-decoration:underline;"> [1] </a>
+  <a href="https://arxiv.org/pdf/2006.05421.pdf" style="text-decoration:underline;"> [2] </a>
+</p></li>
+
+<li><p style="font-size:15px"><b>Human intelligence: </b> Applications of interest include anything from human-machine interactions to neuroscience, psychology and human behavior.   </p></li>
+
+
+</ul>
+<p>Feel free to get in touch if any of the above interest you. </p>
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
