@@ -1,61 +1,75 @@
-<!DOCTYPE html>
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="mystyles.css" media="screen" />
-</head>
-  
 <body>
-  <p>My current research interests:</p>
+  <div style="margin:100px">
+
+<p>My current research interests:</p>
 <ul>
-<li><b>Sampling vs. optimization and interacting particles: </b> In sampling the goal is to sample from some invariant measure.
-  In optimization the goal is to find the minimizer of some objective function. In certain cases these two are very similar. Interacting particles can speed up convergence to either.
+<li><p style="font-size:15px"><b>Optimization algorithms: </b> Design optimization algorithms that converge to the optimum fast.
+  <ul>
+  <li> Optimization can be linked to sampling, where the goal is to converge to samples from the invariant measure. How do the objectives
+    in sampling compare to those in optimization and how does this influence convergence? How can we use tools from analysing the
+    convergence to the invariant measure to understand convergence to the optimum? How can we speed up convergence to the optimum (preconditioning, non-reversible drift, and more)?
   Some interesting papers:
-  <a href="http://proceedings.mlr.press/v75/cheng18a/cheng18a.pdf" style="text-decoration:underline;"> [1] </a>
-  <a href="https://arxiv.org/pdf/2105.12049.pdf" style="text-decoration:underline;"> [2] </a>
-  <a href="https://arxiv.org/pdf/1811.08413.pdf" style="text-decoration:underline;"> [3] </a>
-  <a href="https://arxiv.org/pdf/2007.07704.pdf" style="text-decoration:underline;"> [4] </a>
-</li>
+  <a href="http://proceedings.mlr.press/v75/cheng18a/cheng18a.pdf" style="text-decoration:underline;color: #ed517a"> [1] </a>
+  <a href="https://arxiv.org/pdf/2105.12049.pdf" style="text-decoration:underline;color: #ed517a"> [2] </a>
+  <a href="https://arxiv.org/pdf/1811.08413.pdf" style="text-decoration:underline;color: #ed517a"> [3] </a>
+  <a href="https://arxiv.org/pdf/2007.07704.pdf" style="text-decoration:underline;color: #ed517a"> [4] </a>
+  <a href="https://arxiv.org/pdf/1212.0876.pdf" style="text-decoration:underline;color: #ed517a"> [5] </a>
+  </li>
 
-<li><b>Mirror descent and preconditioning: </b> Mirror descent can be used for contrained or unconstrained optimization.
-  The benefit being that the additional flexibility of the mirror map allows to better correspond to the constraint set and problem geometry.
-  Mirror descent can in turn be related to preconditioning the dynamics or to Riemannian gradient descent.
-  In what settings do which mirror maps help speed up convergence?
-  Some interesting papers:
-  <a href="https://ieeexplore.ieee.org/abstract/document/7004065?casa_token=joHnF32cqqYAAAAA:ckCLPKuqUSZW-WY9iT6NqjtD9HX-6xLh8H58XCFpJrN98pIjprL4xYemeXZg0uT63u8EGgrh" style="text-decoration:underline;"> [1] </a>
-  <a href="http://proceedings.mlr.press/v119/hendrikx20a/hendrikx20a.pdf" style="text-decoration:underline;"> [2] </a>
-  <a href="http://www.numdam.org/article/SMAI-JCM_2018__4__57_0.pdf" style="text-decoration:underline;"> [3] </a>
-</li>
+  <li>The mirror map in mirror descent allows to better fit to the constraint set and problem geometry. In what settings do which mirror maps help speed up convergence? How to choose the mirror map in a good way?
+    Some interesting papers:
+    <a href="https://ieeexplore.ieee.org/abstract/document/7004065?casa_token=joHnF32cqqYAAAAA:ckCLPKuqUSZW-WY9iT6NqjtD9HX-6xLh8H58XCFpJrN98pIjprL4xYemeXZg0uT63u8EGgrh" style="text-decoration:underline;color: #ed517a"> [1] </a>
+    <a href="http://proceedings.mlr.press/v119/hendrikx20a/hendrikx20a.pdf" style="text-decoration:underline;color: #ed517a"> [2] </a>
+    <a href="http://www.numdam.org/article/SMAI-JCM_2018__4__57_0.pdf" style="text-decoration:underline;color: #ed517a"> [3] </a>
+  </li>
 
+  <li> In a setting where data is distributed across devices or servers we are interested
+    in how to define the communication structure between the nodes/particles to balance communication costs and convergence speed.
+    Some interesting papers:
+    <a href="https://epubs.siam.org/doi/pdf/10.1137/120901866?casa_token=IKKfgWvOY_gAAAAA:srIV1RIjUr4XH6MZlqFgBsfzxU2sCAhGDB8UPmhLjmBlnjy_zlMf-ZXA_AMipyZmD3cZdJt8GA" style="text-decoration:underline;color: #ed517a"> [1] </a>
+    <a href="https://www.ma.imperial.ac.uk/~pavl/Optimizing_dynamics_using_spectral_gaps___ICML21_Workshop_on_beyond_first_order.pdf" style="text-decoration:underline;color: #ed517a"> [2] </a>
+  </li>
+  </ul>
 
-<li><b>Distributed optimization:</b> In a setting where data is distributed across devices or servers we are interested
-  in how to define the communication structure between the nodes/particles to balance communication costs and convergence speed.
-  Some interesting papers:
-  <a href="https://epubs.siam.org/doi/pdf/10.1137/120901866?casa_token=IKKfgWvOY_gAAAAA:srIV1RIjUr4XH6MZlqFgBsfzxU2sCAhGDB8UPmhLjmBlnjy_zlMf-ZXA_AMipyZmD3cZdJt8GA" style="text-decoration:underline;"> [1] </a>
-  <a href="https://www.ma.imperial.ac.uk/~pavl/Optimizing_dynamics_using_spectral_gaps___ICML21_Workshop_on_beyond_first_order.pdf" style="text-decoration:underline;"> [2] </a>
-</li>
-
-<li><b>Security and privacy:</b> Design methods that can guarantee security and privacy in learning algorithms.
-  Federated learning has been proposed as a manner of keeping data stored locally on the
-  device but still collectively training a model - however recent work has shown that sensitive information can even be extracted from the gradients.
+<li><p style="font-size:15px"><b>Privacy-preserving machine learning:</b> Find learning algorithms and model architectures that can guarantee privacy of the users whose data the models are trained on.
+  Federated learning has been proposed as a way to keep data stored locally on the
+  device but still collectively train a model - however recent work has shown that sensitive information can still be extracted from the gradients.
   How can we balance data usefulness and user privacy?
   Some interesting papers:
-  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8835269&casa_token=MmEHM6bEqo0AAAAA:qN0712JfSBVwo_VEaFihevEbnLD2PvQlB4LFlKjZbgmzHrgMRnbUQz02wsaOgIwJ75CgNQ-M" style="text-decoration:underline;"> [1] </a>
-  <a href="https://dl.acm.org/doi/pdf/10.1145/3386901.3388946?casa_token=FqJfdUc-kn8AAAAA:jMarXbIU9SKBsFNEV3QyWRG8cDgU3g9Aw_CjcvyKd0VSgUTqljuMwLsDxSlU-V2EQiAb8ISRG4V5" style="text-decoration:underline;"> [2] </a>
-</li>
+  <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8835269&casa_token=MmEHM6bEqo0AAAAA:qN0712JfSBVwo_VEaFihevEbnLD2PvQlB4LFlKjZbgmzHrgMRnbUQz02wsaOgIwJ75CgNQ-M" style="text-decoration:underline;color: #ed517a"> [1] </a>
+  <a href="https://dl.acm.org/doi/pdf/10.1145/3386901.3388946?casa_token=FqJfdUc-kn8AAAAA:jMarXbIU9SKBsFNEV3QyWRG8cDgU3g9Aw_CjcvyKd0VSgUTqljuMwLsDxSlU-V2EQiAb8ISRG4V5" style="text-decoration:underline;color: #ed517a"> [2] </a>
+</p></li>
 
-<li><b>Finance and trading: </b> Anything related to limit order books, option pricing, trading strategies.
+<li><p style="font-size:15px"><b>Explainable machine learning:</b> What do neural networks learn and how do they learn it? Why is the model biased to a particular
+  minimum? What is the role of the optimization algorithm and model architecture in what is learned?
+  Some interesting papers which provide insight into what the neurons have learned:
+  <a href="https://distill.pub/2017/feature-visualization/" style="text-decoration:underline;color: #ed517a"> [1] </a>
+  <a href="https://openaccess.thecvf.com/content_cvpr_2015/papers/Mahendran_Understanding_Deep_Image_2015_CVPR_paper.pdf" style="text-decoration:underline;color: #ed517a"> [2] </a>
+</p></li>
+
+
+<li><p style="font-size:15px"><b>Finance and trading: </b> Applications of machine learning / stochastic processes / modeling for limit order books,
+  trading strategies, systemic risk, and decentralized finance.
   Some interesting papers:
-  <a href="http://wp.lancs.ac.uk/finec2018/files/2018/09/FINEC-2018-028-Xiaofei.Lu_.pdf" style="text-decoration:underline;"> [1] </a>
-  <a href="https://arxiv.org/pdf/2006.05421.pdf" style="text-decoration:underline;"> [2] </a>
-</li>
+  <a href="http://wp.lancs.ac.uk/finec2018/files/2018/09/FINEC-2018-028-Xiaofei.Lu_.pdf" style="text-decoration:underline;color: #ed517a"> [1] </a>
+  <a href="https://arxiv.org/pdf/2006.05421.pdf" style="text-decoration:underline;color: #ed517a"> [2] </a>
+  <a href="https://experts.umn.edu/en/publications/large-deviations-for-a-mean-field-model-of-systemic-risk" style="text-decoration:underline;color: #ed517a"> [3] </a>
+  <a href="https://arxiv.org/pdf/2203.07550.pdf" style="text-decoration:underline;color: #ed517a"> [4] </a>
+  <a href="https://arxiv.org/pdf/1904.05234.pdf" style="text-decoration:underline;color: #ed517a"> [5] </a>
+</p></li>
 
-<li><b>Human intelligence: </b> Applications of interest include anything from human-machine interactions to neuroscience, psychology and human behavior.</li>
+<li><p style="font-size:15px"><b>Relations between human intelligence and artificial intelligence: </b> I am interested in
+  understanding how intelligent behaviour arises in both humans as well as artificial agents and how learning in artificial
+  neural networks can help understand brain function.
+Some interesting papers:
+<a href="https://arxiv.org/pdf/2107.05438.pdf" style="text-decoration:underline;color: #ed517a"> [2] </a>
+</p></li>
 
 
 </ul>
-  
- 
 <p>Feel free to get in touch if any of the above interest you. </p>
+
+</div>
 </body>
-  
 </html>
