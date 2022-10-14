@@ -1,12 +1,12 @@
-p {
+body.p {
   margin: 5% 10%;
   font-size: 15px;
   color: #000000;
 }
 
-h1 {
+body.h1 {
   margin-top: 2%;
-  font-size: 40px;
+  font-size: 30px;
   color: #66666E;
 }
 
