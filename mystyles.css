@@ -26,14 +26,3 @@ a:visited {
 body {
   background-color: #E6E6E9;
 }
-  
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 15%;
-  @media(max-width: 1000px){
-    width:40%;
-  }
-}
-  
