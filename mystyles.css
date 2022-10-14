@@ -26,17 +26,6 @@ a:visited {
 body {
   background-color: #E6E6E9;
 }
-
-li { 
-  font-size: 20px;
-  color: #000000;
-}
-
-ul {
-  font-size: 20px;
-  color: #000000;
-  margin: 5px 10%;
-}
   
 .center {
   display: block;
