@@ -1,13 +1,13 @@
-body.p {
+.myp {
   margin: 5% 10%;
   font-size: 20px;
   color: #000000;
 }
 
-body.h1 {
+.myh1 {
   margin-top: 2%;
   font-size: 30px;
-  color: #66666E;
+  color: #000000;
 }
 
 a:link {
