@@ -18,7 +18,7 @@ Leakage from Neural Network Gradients](https://arxiv.org/pdf/2105.13929.pdf) wit
 
 4. Improve task generalisation by modifying the dataset used and the way we represent the data.
 *Papers*
-*[Efficient regression with deep neural networks: how many datapoints do we need?](https://openreview.net/forum?id=r91mEuZpYAn) with [Daniel Lengyel](https://daniellengyel.github.io/)
+* [Efficient regression with deep neural networks: how many datapoints do we need?](https://openreview.net/forum?id=r91mEuZpYAn) with [Daniel Lengyel](https://daniellengyel.github.io/)
 
 ## Computational neuroscience topics:
 
@@ -29,4 +29,4 @@ Applications we are currently working on:
 
 3. Finding biomarkers to improve deep brain stimulation-based treatment for Parkinson’s disease.
 *Papers*
-* [Explainable Deep Learning for Arm Classification During Deep Brain Stimulation - Towards Digital Biomarkers for Closed-Loop Stimulation](https://2023.ccneuro.org/view_paper.php?PaperNum=1368) with Mathias Haugland, Yen Tai and [Shlomi Haar](https://www.imperial.ac.uk/people/s.haar) We
+* [Explainable Deep Learning for Arm Classification During Deep Brain Stimulation - Towards Digital Biomarkers for Closed-Loop Stimulation](https://2023.ccneuro.org/view_paper.php?PaperNum=1368) with Mathias Haugland, Yen Tai and [Shlomi Haar](https://www.imperial.ac.uk/people/s.haar) 
