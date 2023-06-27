@@ -4,42 +4,31 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="sherlock.jpg">
+<img class="profile-picture" src="DSC08053.jpeg">
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
-
-This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher)
+I am an Assistant Professor (lecturer) in Machine Learning at the Department of Mathematics at Imperial College London, affiliated with [Imperial-X](https://ix.imperial.ac.uk/).
 
 ## Research Interest
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam finibus ipsum ac erat aliquam dapibus. Vestibulum vehicula placerat ex, a consectetur odio pharetra quis. Mauris id urna ante. Fusce pharetra diam ac nisi aliquet, vel egestas ex iaculis. Pellentesque laoreet cursus tellus sed pellentesque. Praesent a rhoncus elit. Nunc ipsum nisl, consequat sit amet pretium quis, gravida id ipsum.
+Very broadly speaking, with my research group and collaborators we work on the design of 'better' machine learning algorithms. How do we do this?
+
+* **Computationally constrained learning.** A recent and popular approach in the ML community is to simply increase the size of models and datasets (*GPT and the like*). In this case, the computational cost of running and training the models becomes a bottleneck. We look at: few-shot learning, spiking neural networks, optimise subsets of parameters or use only parts of the dataset (coresets).
+* **Training procedures for more robust learning.** The other approach is to cleverly modify the training procedures to learning more robust and generalisable representations of data. We look at: encoding invariances, modifying the way we represent the data, learning from multi-model datasets, contrastive loss approaches, manifold learning.
+
+We work in close collaboration with **neuroscientists** to inspire new methodologies, as well as to apply ML methods to drive understanding into the mechanisms of the brain.
 
 ## Publications
 
-1. F.Bar, J.Doe: Effects of having a placeholder of a name
-2. S.Holmes, J.Watson: Consequences of living with a sociopath in London
+See [Google Scholar](https://scholar.google.com/citations?user=6y1FmgQAAAAJ&hl=en&oi=ao) for a full overview of publications or see the Research page for recent publications. 
 
-## Typography
+## Contact me
 
-This is a [link](http://google.com). Something *italics* and something **bold**.
+* Email: a.surname@imperial.ac.uk
 
-Here is a table
+For **PhD students** and **postdoctoral researchers**, send me an email with the subject line 'building better ML' if you are interested or directly apply through Imperial's website.
 
-Year | Award | Category
------|-------|--------
-2014 | Emmy  | Won Outstanding Lead Actor in a miniseries or a movie
-2015 | BAFTA | Nominated for Best Leading Actor for Sherlock
-2014 | Satellite | Won Best Actor miniseries or television film
+## Links
 
-Here is a horizontal rule
-
----
-
-Here is a blockquote
-
-> To a great mind, nothing is little
-
-## References
-
-* Foo Bar: Head of Department, Placeholder Names, Lorem
-* John Doe: Associate Professor, Department of Computer Science, Ipsum
+1. [Youtube](https://www.youtube.com/@anastasiaborovykh120)
+2. [Google Scholar](https://scholar.google.com/citations?user=6y1FmgQAAAAJ&hl=en&oi=ao)
+3. [LinkedIn](https://www.linkedin.com/in/anastasia-borovykh-10380584/)
