@@ -17,6 +17,6 @@ sass:
 
 nav:
  - name: "Research"
-   link: "/research/"
+   link: "research"
  - name: "Group"
    link: "group"
