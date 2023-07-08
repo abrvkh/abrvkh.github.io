@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="DSC08053_mod.png">
+<img class="profile-picture" src="DSC08053_mod.jpeg">
 
 I am an Assistant Professor (lecturer) in Machine Learning at the Department of Mathematics at Imperial College London, affiliated with [Imperial-X](https://ix.imperial.ac.uk/).
 
@@ -12,7 +12,7 @@ I am an Assistant Professor (lecturer) in Machine Learning at the Department of 
 
 Very broadly speaking, with my research group and collaborators we work on the design of 'better' machine learning algorithms. How do we do this?
 
-* **Computationally constrained learning.** A recent and popular approach in the ML community is to simply increase the size of models and datasets (*GPT and the like*). In this case, the computational cost of running and training the models becomes a bottleneck. We look at: few-shot learning, spiking neural networks, optimise subsets of parameters or use only parts of the dataset (coresets), biologically plausible learning algorithms. 
+* **Computationally constrained learning.** A recent and popular approach in the ML community is to simply increase the size of models and datasets (*GPT and the like*). In this case, the computational cost of running and training the models becomes a bottleneck. We look at: few-shot learning, spiking neural networks, optimise subsets of parameters or use only parts of the dataset (coresets), biologically plausible learning algorithms.
 * **Training procedures for more robust learning.** The other approach is to cleverly modify the training procedures to learning more robust and generalisable representations of data. We look at: modifying the way we represent the data, contrastive loss approaches, active inference and Bayesian methods to represent uncertainties.
 
 We work in close collaboration with **neuroscientists** to inspire new methodologies, as well as to apply ML methods to drive understanding into the mechanisms of the brain.
