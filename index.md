@@ -10,7 +10,7 @@ I am an Assistant Professor (lecturer) in Machine Learning at the Department of 
 
 ## Research Interest
 
-Very broadly speaking, with my research group and collaborators we work on the design of 'better' machine learning algorithms. How do we do this?
+Very broadly speaking, I am interested in the principles that underlie cognition, both in nature and artificial. Some specific themes we work on:
 
 * **Computationally constrained learning.** A recent and popular approach in the ML community is to simply increase the size of models and datasets (*GPT and the like*). In this case, the computational cost of running and training the models becomes a bottleneck. We look at: few-shot learning, spiking neural networks, optimise subsets of parameters or use only parts of the dataset (coresets), biologically plausible learning algorithms.
 * **Training procedures for more robust learning.** The other approach is to cleverly modify the training procedures to learning more robust and generalisable representations of data. We look at: modifying the way we represent the data, contrastive loss approaches, active inference and Bayesian methods to represent uncertainties.
