@@ -25,7 +25,7 @@ See [Google Scholar](https://scholar.google.com/citations?user=6y1FmgQAAAAJ&hl=e
 
 * Email: a.surname@imperial.ac.uk
 
-For **PhD students** and **postdoctoral researchers**, send me an email with the subject line 'building better ML' if you are interested or directly apply through Imperial's website.
+For **PhD students** and **postdoctoral researchers**, I am unfortunately **not** hiring.
 
 ## Links
 
