@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="DSC08053_mod.jpeg">
+<img class="profile-picture" src="square_photo.png">
 
 I am an Assistant Professor (lecturer) in Machine Learning at the Department of Mathematics at Imperial College London, affiliated with [Imperial-X](https://ix.imperial.ac.uk/).
 
