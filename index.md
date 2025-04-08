@@ -6,9 +6,12 @@ layout: default
 
 <img class="profile-picture" src="square_photo.png">
 
-I research how to improve machine's ability to understand and engage with the world through language. I’m also interested in how our society will be reshaped by having access to and interacting with these increasingly capable AI models. 
+I work on improving a machine's ability to understand and engage with the world. I'm interested in how society will decide to shape the way we interact with technology, approach problem-solving, and think about creativity.
 
-When GPT-3.5 launched, I shrugged it off as a fun gimmick. Now? I can’t imagine my day without LLMs. These models are rewriting what’s possible in how we interact with technology, approach problem-solving, and even think about creativity. Yet, there are lots of challenges and unanswered questions about their behavior. Here’s what I’m diving into:
+At Imperial College London, I lead a research group focused on AI interpretability and robustness. I consult on AI deployment, training, fine-tuning, retrieval, and safety. I also work with founders and investors on complex, interdisciplinary problems. 
+
+## My research 
+AI models are (seemingly) highly capable, but there are lots of challenges and unanswered questions about their behavior. I'm currently looking into:
 
 **Refined control** 
 Task performance depends heavily on how prompts are structured. Post-training has advanced models' instruction-following capabilities, but language is more a bridge than a perfect mirror of thought: some concepts defy precise expression through text, and crafting the right contexts to elicit specific behaviors can be challenging. Furthermore, models remain fragile: small prompt tweaks or adversarial inputs can lead to harmful or erroneous outputs. Research shows that models encode high-level representations of the world. I explore how we can leverage these representations to obtain an additional lever of control on the model's behavior. 
@@ -16,7 +19,13 @@ Task performance depends heavily on how prompts are structured. Post-training ha
 **Continual learning** 
 Embedding large language models into larger systems with long-term memory and tools for interacting with the world could unlock even more sophisticated task-solving capabilities. Extending context windows is one approach, but it has limits: no window can encompass all past events, nor can we guarantee effective retrieval of events through attention mechanisms. Equally important is the ability to break down complex tasks into structured plans and learn effectively from observations. Enhancing these capabilities is a key area of my research. 
 
-I’m an honorary lecturer at Imperial College London, leading a research group tackling these challenges. I also consult on AI deployment, fine-tuning, interpretability, and safety. Previously, I was a senior machine learning scientist at Liquid AI and co-founded Skialabs, where we developed software that manages waste collection operations in cities across the Netherlands, including Amsterdam. 
+**Creative problem-solving** 
+What will it take to make an AI into a truly useful collaborator? Recent advances in reasoning models are impressive, but these tasks often test for the final answer; the step-by-step reasoning that real-world problems demand is harder to evaluate. I look into how we can build models that can solve complex, open-ended problems—where the process matters just as much as the outcome.
+
+## Before
+- I was a senior machine learning scientist at Liquid AI [USD250mln raise](https://www.liquid.ai/blog/we-raised-250m-to-scale-capable-and-efficient-general-purpose-ai)
+- I co-founded Skialabs, where we built software that manages waste collection operations in cities across the Netherlands, including Amsterdam. Funded by the European Union. 
+- Assistant Professor in Machine Learning at Imperial College London
 
 ## Blog 
 
