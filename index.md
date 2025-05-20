@@ -2,8 +2,6 @@
 layout: default
 ---
 
-## Anastasia Borovykh
-
 <img class="profile-picture" src="square_photo.png">
 
 My research is in the fields of machine learning, statistical mechanics and neuroscience. At Imperial College London I lead a research group focused on AI interpretability and robustness. 
