@@ -24,7 +24,7 @@ Check my [YouTube channel](https://www.youtube.com/@anastasiaborovykh120) for de
 
 ## Signal & noise meetup
 
-We also organise the [Signal & Noise](https://luma.com/ik01xawq) machine learning meetup in Paris featuring ML talks from around Europe under the enjoyment of good snacks and natural wines. 
+We also organise the [Signal & Noise](https://luma.com/ik01xawq) machine learning meetup in Paris featuring ML talks from researchers & practitioners around Europe under the enjoyment of good snacks and natural wines. 
 
 ## Publications
 
