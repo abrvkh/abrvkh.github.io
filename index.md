@@ -9,10 +9,10 @@ I am currently an Executive Director at Capital Fund Management (CFM), where I w
 Trading is a particularly interesting domain for machine learning: datasets are large and non-stationary; the signal is weak and changes in response to our own actions and those of others; and there is no single correct training target (should we optimise over milliseconds, minutes, or weeks?). I'm currently very interested to find a robust, reliable, and efficient solution in this domain.
 
 ## Before
-I was an Assistant Professor in Mathematics and Machine Learning at Imperial College London, where I led a group studying the mechanisms underlying machine learning. I still hold an Honorary Lecturer position there. Alongside our core work, we occasionally ventured into neuroscience and questions about the human mind—topics I hope to return to one day.
-- I was an Assistant Professor in Machine Learning at Imperial College London, where my group worked on 
+- I was an Assistant Professor in Mathematics and Machine Learning at Imperial College London, where I led a group studying the mechanisms underlying machine learning. I still hold an Honorary Lecturer position there. Alongside our core work, we occasionally ventured into neuroscience and questions about the human mind—topics I hope to return to one day.
 - I was a senior machine learning scientist at Liquid AI [USD250mln raise](https://www.liquid.ai/blog/we-raised-250m-to-scale-capable-and-efficient-general-purpose-ai)
-- I co-founded Skialabs, where we built software that manages waste collection operations in cities across the Netherlands, including Amsterdam. Funded by the European Union. 
+- I co-founded Skialabs, where we built software that manages waste collection operations in cities across the Netherlands, including Amsterdam. Funded by the European Union.
+- I did a lot of consulting to hedge funds, Fortune 500 companies and startups. 
 
 ## Blog 
 
