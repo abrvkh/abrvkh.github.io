@@ -22,6 +22,10 @@ For reflections on machine learning visit my [Substack](http://ana15.substack.co
 
 Check my [YouTube channel](https://www.youtube.com/@anastasiaborovykh120) for deepdives and tutorials. 
 
+## Signal & noise meetup
+
+We also organise the [Signal & Noise](https://luma.com/ik01xawq) machine learning meetup in Paris featuring ML talks from around Europe under the enjoyment of good snacks and natural wines. 
+
 ## Publications
 
 See [Google Scholar](https://scholar.google.com/citations?user=6y1FmgQAAAAJ&hl=en&oi=ao) for a full overview of my research publications. A few recent ones I am excited about: 
