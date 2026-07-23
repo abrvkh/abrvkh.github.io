@@ -30,16 +30,16 @@ We also organise the [Signal & Noise](https://luma.com/ik01xawq) machine learnin
 
 See [Google Scholar](https://scholar.google.com/citations?user=6y1FmgQAAAAJ&hl=en&oi=ao) for a full overview of my research publications. A few recent ones I am excited about: 
 
-### [When Does Continual Learning Require Learning?](https://arxiv.org/abs/2607.07847) 
+##### [When Does Continual Learning Require Learning?](https://arxiv.org/abs/2607.07847) 
 AI today is largely centralised: a small number of large models are trained and then delivered to users as mostly frozen systems. I am interested in bringing intelligence closer to where knowledge lives and allowing models to keep learning and adjusting to new inputs. In this work, we investigated several approaches to continual learning under different kinds of task and knowledge change. The main conclusion was that no single method works universally well. Different conditions require different update mechanisms, leaving substantial room to develop better continual-learning recipes. 
 
-### [Diffusion Models Preferentially Memorize Prototypical Examples—or: Why Does My Diffusion Model Love Slop?](https://arxiv.org/abs/2605.30642) 
+##### [Diffusion Models Preferentially Memorize Prototypical Examples—or: Why Does My Diffusion Model Love Slop?](https://arxiv.org/abs/2605.30642) 
 Much has been written about models memorising unusual examples and outliers. At the same time, generative models often repeat common structures and stylistic patterns, such as the em dash. In this work, we studied these memorisation dynamics more closely. We found that common features are memorised earlier than atypical ones, and identified an intermediate stage of training in which data containing these common features is disproportionately generated. This may help explain why models can produce repetitive, stereotyped outputs before memorising complete training examples. 
 
-### [A Low-Variance Subspace Underlies Individual Differences in Resting-State fMRI](https://www.biorxiv.org/content/10.64898/2026.01.25.701594v1) 
+##### [A Low-Variance Subspace Underlies Individual Differences in Resting-State fMRI](https://www.biorxiv.org/content/10.64898/2026.01.25.701594v1) 
 This project was one of those mentioned stints into neuroscience. We identified a low-dimensional linear subspace of resting-state fMRI activity whose dimensions are highly reliable across repeated measurements. We then showed that these dimensions capture stable individual differences, effectively forming personal neural fingerprints. 
 
-### [Generalization in LLM Problem Solving: The Case of the Shortest Path](https://arxiv.org/abs/2604.15306) 
+##### [Generalization in LLM Problem Solving: The Case of the Shortest Path](https://arxiv.org/abs/2604.15306) 
 We used paths through graphs as a controlled, easy-to-study language for investigating generalisation in language-model problem solving. In particular, we separated two forms of generalisation: spatial transfer to previously unseen maps and length scaling to problems requiring longer solution paths. This setting allowed us to examine more precisely where models learn transferable problem-solving rules and where their performance breaks down as the reasoning horizon grows.
 
 ## Get in touch
